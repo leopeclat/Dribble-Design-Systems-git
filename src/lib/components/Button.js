@@ -6,13 +6,13 @@ const Button = (props) => {
         <button
             className="dribbble-button"
             style={{
-                backgroundColor: '#eb4c89',
+                backgroundColor: '#EC0016',
                 color: 'white',
-                fontFamily: 'Comic Sans MS',
-                fontSize: '24px',
+                fontFamily: 'Verdana',
+                fontSize: '16px',
                 border: 'none',
-                padding: '16px',
-                borderRadius: '8px'
+                padding: '19px 18px 18px',
+                borderRadius: '4px'
             }}>
             {props.label}
         </button>
