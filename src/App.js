@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './lib/components/Button';
+import Card from './lib/components/Card';
 
 function App() {
   return (
@@ -8,18 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi Dribbble Folks <code>src/App.js</code> and save to reload.
+         Please find below the card component with a button component inside it
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        
-        <Button label="Click Me!" />
+        <Card headline="App DB Streckenagent" text="Ihr zuverlässiger Reisebegleiter - Kostenlos werden Sie topaktuell über Störungen, Verspätungen, Gleiswechsel, Baustellen und Zugausfälle im Nah- und Fernverkehr auf Ihren Strecken aufgeklärt." />
 
       </header>
     </div>

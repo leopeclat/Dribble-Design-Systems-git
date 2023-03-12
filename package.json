@@ -1,6 +1,6 @@
 {
   "name": "dribbble-design-system-leopeclat",
-  "version": "0.1.0-alpha",
+  "version": "0.3.0-alpha",
   "description": "The Design System for the Dribbble Scaling Design Systems course",
   "private": false,
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npx rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
